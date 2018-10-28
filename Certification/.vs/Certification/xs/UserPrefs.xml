@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{15487138-BF2F-FCC1-6B03-CABC98BDAEC7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Startup.cs">
+    <Files>
+      <File FileName="Assets/Script/Startup.cs" Line="19" Column="70" />
+      <File FileName="Assets/Script/Hud.cs" Line="8" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Certification PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>
