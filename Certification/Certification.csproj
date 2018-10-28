@@ -305,7 +305,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Hud.cs" />
+    <Compile Include="Assets\Script\InventoryController.cs" />
     <Compile Include="Assets\Script\Startup.cs" />
+    <Compile Include="Assets\Script\StartupLevel.cs" />
     <Compile Include="Assets\SupercyanCharacter\Scripts\CameraLogic.cs" />
     <Compile Include="Assets\SupercyanCharacter\Scripts\Demo.cs" />
     <Compile Include="Assets\SupercyanCharacter\Scripts\SimpleCharacterControl.cs" />

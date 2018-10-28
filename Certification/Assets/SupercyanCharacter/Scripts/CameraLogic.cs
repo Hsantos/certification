@@ -8,17 +8,23 @@ public class CameraLogic : MonoBehaviour {
     private float m_height = 1;
     private float m_lookAtAroundAngle = 180;
 
-    [SerializeField] private List<Transform> m_targets;
+    private List<Transform> m_targets;
     private int m_currentIndex;
 
-	private void Start () {
-        if(m_targets.Count > 0)
+    private void Awake()
+    {
+        m_targets = new List<Transform>();
+    }
+   
+    public void AddTarget(Transform t)
+    {
+        m_targets.Add(t); 
+        if (m_targets.Count > 0)
         {
             m_currentIndex = 0;
             m_currentTarget = m_targets[m_currentIndex];
         }
-	}
-
+    }
     private void SwitchTarget(int step)
     {
         if(m_targets.Count == 0) { return; }
