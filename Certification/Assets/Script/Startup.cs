@@ -17,8 +17,7 @@ public class Startup : MonoBehaviour {
     private void PlayGame()
     {
         SceneManager.LoadScene("Persistent", LoadSceneMode.Additive);
-        SceneManager.LoadScene("Level1", LoadSceneMode.Additive);
-
+        SceneManager.LoadScene("Level1");
         SceneManager.sceneLoaded += OnSceneLoaded;
    
     }
